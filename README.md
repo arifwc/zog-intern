@@ -7,3 +7,13 @@
 - One topic has multiple news e.g. "car" topic might contain "how to maintain a car",  "new car released this month", etc. 
 - Enable filter by news status ("draft", "deleted", "publish"). 
 - Enable filter news by its topics.
+
+
+## TO-DO
+- Bootstrapping Project
+- News and Topic Schema
+- CRUD news
+- CRUD topic
+- Filter news status ("draft", "deleted", "publish")
+- Filter news topics
+- API Doc
