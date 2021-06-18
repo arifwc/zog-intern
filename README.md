@@ -10,10 +10,10 @@
 
 
 ## TO-DO
-- Bootstrapping Project
-- News and Topic Schema
+- Bootstrapping Project ✔
+- News and Topic Schema 
 - CRUD news
 - CRUD topic
 - Filter news status ("draft", "deleted", "publish")
-- Filter news topics
-- API Doc
+- Filter news topics 
+- API Doc 

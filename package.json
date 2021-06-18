@@ -1,0 +1,27 @@
+{
+  "name": "zog-intern",
+  "version": "1.0.0",
+  "description": "- Create a REST API  TypeScript and Express (or anything you like) About News and Topic management. \r - You can use any SQL/NoSQL storage with your own data model.\r - CRUD on News and Topic. \r - One news can contains multiple topics e.g. \"use typescript for production\" might contain topics such as  \"programming\", \"javascript\", etc. \r - One topic has multiple news e.g. \"car\" topic might contain \"how to maintain a car\",  \"new car released this month\", etc. \r - Enable filter by news status (\"draft\", \"deleted\", \"publish\"). \r - Enable filter news by its topics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc -w && nodemon build/app.js",
+    "start": "nodemon build/app.js",
+    "dev": "ts-node source/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arifwc/zog-intern.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arifwc/zog-intern/issues"
+  },
+  "homepage": "https://github.com/arifwc/zog-intern#readme",
+  "dependencies": {
+    "@types/express": "^4.17.12",
+    "@types/mongoose": "^5.10.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14"
+  }
+}
